@@ -1,0 +1,58 @@
+def scientificCalculator():
+    print("Scientific Calculator")
+    print("1. sin")
+    print("2. cos")
+    print("3. tan")
+    print("4. log")
+    print("5. ln")
+    print("6. e^x")
+    print("7. x^y")
+    print("8. x^3")
+    print("9. x^2")
+    print("10. 1/x")
+    print("11. x!")
+    print("12. sqrt")
+    print("13. nPr")
+    print("14. nCr")
+    print("15. Back")
+    print("16. Exit")
+    print("Enter your choice: ", end="")
+    choice = int(input())
+    if choice == 1:
+        print("Enter the number: ", end="")
+        num = float(input())
+        print("sin(", num, ") = ", math.sin(num))
+    elif choice == 2:
+        print("Enter the number: ", end="")
+        num = float(input())
+        print("cos(", num, ") = ", math.cos(num))
+    elif choice == 3:
+        print("Enter the number: ", end="")
+        num = float(input())
+        print("tan(", num, ") = ", math.tan(num))
+    elif choice == 4:
+        print("Enter the number: ", end="")
+        num = float(input())
+        print("log(", num, ") = ", math.log10(num))
+    elif choice == 5:
+        print("Enter the number: ", end="")
+        num = float(input())
+        print("ln(", num, ") = ", math.log(num))
+    elif choice == 6:
+        print("Enter the number: ", end="")
+        num = float(input())
+        print("e^(", num, ") = ", math.exp(num))
+    elif choice == 7:
+        print("Enter the number: ", end="")
+        num = float(input())
+        print("Enter the power: ", end="")
+        power = float(input())
+        print(num, "^", power, " = ", math.pow(num, power))
+    elif choice == 8:
+        print("Enter the number: ", end="")
+        num = float(input())
+        print(num, "^3 = ", math.pow(num, 3))
+    elif choice == 9:
+        print("Enter the number: ", end="")
+        num = float(input())
+        print(num, "^2 = ", math.pow(num, 2))
